@@ -3,11 +3,13 @@ framework: jest
 tier: large
 postMerge: 
   pattern: 
-    - "./tests/format/js/**/*.spec.js"
+    - "./tests/*/js/**/*-test.js"
+    - "./tests/format/**/*.spec.js"
     - "./tests/integration/__tests__/*.js"
 preMerge:
   pattern:
-    - "./tests/format/js/**/*.spec.js"
+    - "./tests/*/js/**/*-test.js"
+    - "./tests/format/**/*.spec.js"
     - "./tests/integration/__tests__/*.js"
 preRun:
      command:
