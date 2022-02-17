@@ -1,6 +1,6 @@
 ---
 framework: jest
-tier: large
+tier: small
 postMerge: 
   pattern: 
     - "./tests/integration/__tests__/*.js"
