@@ -10,8 +10,4 @@ preMerge:
 preRun:
      command:
         - yarn install
-postRun:
-     command:
-        - yarn --version
-version: 2.1
 
